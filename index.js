@@ -173,7 +173,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' escanear o codigo qr acima '))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color(' silahkan scann QR nya by APBOT'))
 	})
 
 	fs.existsSync('./Nazwa.json') && client.loadAuthInfo('./Nazwa.json')
